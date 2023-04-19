@@ -1,2 +1,25 @@
 <!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<div class="card py-3 mb-5 pb-5">
+    <div class="card-body justify-content-end mx-auto">
+      <h2 class="card-title">Contact</h2>
+      <p class="card-text">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Preasent commodo cursus <br>
+    magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    </div>
+    <form class="bg-light w-50 border border-dark-subtle border-1 mx-auto py-2 ps-5 pe-2">
+        <div class="row mb-3 justify-content-end">
+           <label for="yourEmail" class="col-sm-3 col-form-label text-end fw-bold">Your E-mail</label>
+           <div class="col-9">
+               <input type="email" class="form-control" id="yourEmail" placeholder="Your email">
+           </div>
+       </div>
+       <div class=" row mb-3 justify-content-end">
+           <label for="yourMessage" class="col-sm-3 col-form-label text-end fw-bold">Your message</label>
+           <div class="col-9">
+               <textarea class="form-control" placeholder="Please enter your message here" id="yourMessage" style="height: 100px"></textarea>
+           </div>
+       </div>
+       <div class="d-grid gap-2 d-md-flex justify-content-end">
+           <button class="btn btn-primary" type="submit">Submit</button>
+       </div>
+   </form>
+  </div>
